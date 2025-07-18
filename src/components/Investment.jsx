@@ -36,7 +36,7 @@ export default function Investment() {
             value={stockName}
             onChange={(e) => setStockName(e.target.value)}
             className="w-full p-3 border-2 border-red-300 rounded-lg focus:border-red-500 focus:outline-none bg-white text-red-700 placeholder-red-400"
-            placeholder="🚀 e.g., Apple, Tesla, Google"
+            placeholder="Enter stock name here"
           />
         </div>
 
@@ -49,7 +49,7 @@ export default function Investment() {
             value={initialAmount}
             onChange={(e) => setInitialAmount(e.target.value)}
             className="w-full p-3 border-2 border-red-300 rounded-lg focus:border-red-500 focus:outline-none bg-white text-red-700 placeholder-red-400"
-            placeholder="💲 1000"
+            placeholder="Enter your initial investment"
           />
         </div>
 
@@ -62,7 +62,7 @@ export default function Investment() {
             value={growthRate}
             onChange={(e) => setGrowthRate(e.target.value)}
             className="w-full p-3 border-2 border-red-300 rounded-lg focus:border-red-500 focus:outline-none bg-white text-red-700 placeholder-red-400"
-            placeholder="🔥 7"
+            placeholder="Enter the expected growth rate"
           />
         </div>
 
@@ -75,7 +75,7 @@ export default function Investment() {
             value={years}
             onChange={(e) => setYears(e.target.value)}
             className="w-full p-3 border-2 border-red-300 rounded-lg focus:border-red-500 focus:outline-none bg-white text-red-700 placeholder-red-400"
-            placeholder="📅 10"
+            placeholder="Enter Number of years "
           />
         </div>
 
